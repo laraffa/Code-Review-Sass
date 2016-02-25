@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.box {
+  background: red;
+  margin: 20px;
+  height: 100px;
+  width: 100px; }
+
+/* Base Styles -------------------- */
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
