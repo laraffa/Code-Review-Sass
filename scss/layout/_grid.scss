@@ -63,16 +63,18 @@
     }
   }
 
-  .grid-item img {
+  .grid-item i {
     display: block;
-    height: 3em;
+    padding-bottom: 0px;
     margin: 0 auto 1em;
+    font-size: 3em;
+    color: white;
   }
 
   .grid-item h1 {
     color: $grid-item-color;
-    font-size: 1.3em;
-    margin-bottom: 0.4em;
+    font-size: 2em;
+    margin-bottom: 1.3em;
   }
 
   .grid-item p {
