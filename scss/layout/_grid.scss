@@ -21,7 +21,7 @@
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
   $grid-item-color: white;
-  $grid-item-height: 20em;
+  $grid-item-height: 25em;
 
   @include clearfix;
 
@@ -97,25 +97,60 @@
     }
   }
 
+ @mixin style-img  {
+   background-color: $grid-item-background;
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+
   .grid-item-image1 {
-    background: url("../img/beach1.jpg");
-    background-color: $grid-item-background;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/stand.jpg");
+    @include style-img;
   }
   .grid-item-image2 {
     background: url("../img/skateboard.jpg");
-    background-color: $grid-item-background;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include style-img;
   }
   .grid-item-image3 {
-    background: url("../img/sunset.jpg");
-    background-color: $grid-item-background;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/graf.jpg");
+    @include style-img;
   }
-}
+  .grid-item-image4 {
+    background: url("../img/palms2.jpg");
+    @include style-img;
+  }
+  .grid-item-image5 {
+    background: url("../img/pic3.jpg");
+    @include style-img;
+  }
+  .grid-item-image6 {
+    background: url("");
+    @include style-img;
+  }
+  .grid-item-image7 {
+    background: url("../img/girl.jpg");
+    @include style-img;
+  }
+  .grid-item-image8 {
+    background: url("../img/water.jpg");
+    @include style-img;
+  }
+  .grid-item-image9 {
+    background: url("../img/pic9.jpg");
+    @include style-img;
+  }
+  .grid-item-image10 {
+    background: url("../img/sunshine.jpg");
+    @include style-img;
+  }
+  .grid-item-image11 {
+    background: url("../img/sunset.jpg");
+    @include style-img;
+  }
+  .grid-item-image12 {
+    background: url("");
+    @include style-img;
+  }
+  }

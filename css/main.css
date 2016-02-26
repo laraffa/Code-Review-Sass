@@ -54,6 +54,10 @@ html {
             font-size: 1.1em;
             max-width: 40%; } }
 
+.grid-wrapper {
+  width: 80%;
+  margin: auto; }
+
 header.navigation {
   background-color: #C2C2C2;
   border-bottom: 1px solid darkgray;
@@ -283,7 +287,7 @@ header.navigation {
   border-top: 0;
   cursor: pointer;
   float: left;
-  height: 20em;
+  height: 25em;
   overflow: hidden;
   outline: none;
   padding: 2em;
@@ -371,7 +375,7 @@ header.navigation {
   .grid-items .grid-item-big p {
     max-width: 60%; } }
 .grid-items .grid-item-image1 {
-  background: url("../img/beach1.jpg");
+  background: url("../img/stand.jpg");
   background-color: #6b83a6;
   background-position: top;
   background-repeat: no-repeat;
@@ -383,7 +387,61 @@ header.navigation {
   background-repeat: no-repeat;
   background-size: cover; }
 .grid-items .grid-item-image3 {
+  background: url("../img/graf.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image4 {
+  background: url("../img/palms2.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image5 {
+  background: url("../img/pic3.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image6 {
+  background: url("");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image7 {
+  background: url("../img/girl.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image8 {
+  background: url("../img/water.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image9 {
+  background: url("../img/pic9.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image10 {
+  background: url("../img/sunshine.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image11 {
   background: url("../img/sunset.jpg");
+  background-color: #6b83a6;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-image12 {
+  background: url("");
   background-color: #6b83a6;
   background-position: top;
   background-repeat: no-repeat;
