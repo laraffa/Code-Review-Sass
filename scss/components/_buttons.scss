@@ -1,0 +1,8 @@
+.article-button {
+  @include button(pill);
+  margin-top: 1em;
+}
+
+.main-article-button {
+  @include button;
+}

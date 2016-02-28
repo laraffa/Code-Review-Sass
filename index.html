@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
     <meta name="viewport" content="width=device-width">
   </head>
@@ -47,7 +49,7 @@
     <a href="" class="hero-logo"><i class="fa fa-gg"></i></a>
 		<div class="hero-copy">
 			<h1>Exploring the Pacific Coast Highway</h1>
-			<p>Take a wild look at the western spansian.</p>
+			<p>Take a wild look at the western spansion.</p>
 		</div>
 	</div>
 </div>
@@ -55,73 +57,387 @@
 
 <div class="grid-wrapper">
 <div class="grid-items">
-  <a href="javascript:void(0)" class="grid-item grid-item-image1">
+  <a href class="grid-item grid-item-image1">
     <i class="fa fa-heart"></i>
     <h1>A Lifestyle Overview</h1>
     <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+    <div class="modal">
+    <label for="modal-1">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-1" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-1"></div>
+        <h1>A Lifestyle Overview</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image2">
+
+
+  <a href class="grid-item grid-item-big grid-item-image2">
     <i class="fa fa-heart"></i>
     <h1>The Pacific Coast Highway</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="modal">
+    <label for="modal-2">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-2" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-2"></div>
+        <h1>The Pacific Coast Highway</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image3">
+
+  <a href class="grid-item grid-item-big grid-item-image3">
     <i class="fa fa-heart"></i>
     <h1>West Coast Artwork</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="modal">
+    <label for="modal-3">
+      <div class="modal-trigger">Read>></div>
+    </label>
+    <input class="modal-state" id="modal-3" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-3"></div>
+        <h1>West Coast Artwork</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image4">
+
+  <a href class="grid-item grid-item-image4">
   <i class="fa fa-heart"></i>
     <h1>The Legendary Kings of Sepulveda</h1>
     <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+    <div class="modal">
+    <label for="modal-4">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-4" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-4"></div>
+        <h1>The Legendary Kings of Sepulveda</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image5">
+
+  <a href class="grid-item grid-item-image5">
     <i class="fa fa-heart"></i>
     <h1>Bum Life</h1>
     <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+    <div class="modal">
+    <label for="modal-5">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-5" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-5"></div>
+        <h1>Bum Life</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image6">
+
+  <a href class="grid-item grid-item-image6">
     <i class="fa fa-heart"></i>
     <h1>Lincoln Blvd.</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="modal">
+    <label for="modal-6">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-6" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-6"></div>
+        <h1>Lincoln Blvd.</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image7">
+
+  <a href class="grid-item grid-item-image7">
     <i class="fa fa-heart"></i>
     <h1>Surf, Sand, Salt</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+    <div class="modal">
+    <label for="modal-7">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-7" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-7"></div>
+        <h1>Surf, Sand, Salt</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image8">
+
+  <a href class="grid-item grid-item-image8">
     <i class="fa fa-heart"></i>
     <h1>The Pacific Ocean</h1>
     <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
+    <div class="modal">
+    <label for="modal-8">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-8" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-8"></div>
+        <h1>The Pacific Ocean</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-big grid-item-image9">
+
+  <a href class="grid-item grid-item-big grid-item-image9">
     <i class="fa fa-heart"></i>
-    <h1>Sunset Strippers</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <h1>Sunset Strips</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+    <div class="modal">
+    <label for="modal-9">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-9" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-9"></div>
+        <h1>Sunset Strips</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image10">
+
+  <a href class="grid-item grid-item-image10">
   <i class="fa fa-heart"></i>
     <h1>Sidewalk Art</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="modal">
+    <label for="modal-10">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-10" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-10"></div>
+        <h1>Sidewalk Art</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image11">
+
+  <a href class="grid-item grid-item-image11">
     <i class="fa fa-heart"></i>
     <h1>Sunsets on Venice</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    <div class="modal">
+    <label for="modal-11">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-11" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-11"></div>
+        <h1>Sunsets on Venice</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-image12">
+
+  <a href class="grid-item grid-item-image12">
     <i class="fa fa-heart"></i></i>
     <h1>Good Vibrations</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+    <div class="modal">
+    <label for="modal-12">
+      <div class="modal-trigger">Read</div>
+    </label>
+    <input class="modal-state" id="modal-12" type="checkbox" />
+    <div class="modal-fade-screen">
+      <div class="modal-inner">
+        <div class="modal-close" for="modal-12"></div>
+        <h1>Good Vibrations</h1>
+        <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+        <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+        <br>
+        <form>
+          <div id="message">
+            <label for="msg">Comments:</label>
+            <textarea id="msg" rows="8" cols="92" name="user_message"></textarea>
+          </div>
+
+          <div class="button">
+            <button class="article-button" type="submit">Post</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
   </a>
 </div>
 </div>
+
+
 
 
 <footer class="footer-2" role="contentinfo">
     <ul>
-
       <li><a href="javascript:void(0)">About</a></li>
       <li><a href="javascript:void(0)">Contact</a></li>
       <li><a href="javascript:void(0)">Products</a></li>
@@ -135,13 +451,13 @@
       </ul>
 
       <ul class="footer-social">
-        <li><a href="javascript:void(0)">
+        <li><a href="https://www.facebook.com/">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
           </a></li>
-        <li><a href="javascript:void(0)">
+        <li><a href="https://twitter.com/?lang=en">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
         </a></li>
-        <li><a href="javascript:void(0)">
+        <li><a href="https://www.youtube.com/">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
         </a></li>
       </ul>
